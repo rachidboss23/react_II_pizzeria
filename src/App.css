@@ -1,0 +1,150 @@
+.card {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("/pexels-enginakyurt-2260555.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container {
+  color: white;
+  margin-top: 4px;
+}
+
+.img-carrito {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 230px;
+  margin-top: 30px;
+  width: 900px;
+  height: auto;
+  max-width: 100%;
+}
+
+.card-carrito {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.card-content {
+  display: flex;
+  width: 100%;
+}
+
+.card-img-top {
+  max-width: 400px;
+  height: 300;
+}
+
+.card-body {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-title,
+.card-text,
+.card-desc {
+  margin-bottom: 15px;
+}
+
+.d-flex {
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-around;
+}
+
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links-container .spacer {
+  flex: 1;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.home {
+  position: relative;
+  background-image: url("./assets/imgs/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.home .home-body {
+  position: relative;
+  z-index: 2;
+}
+
+.home-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  color: white;
+}
+
+.home-body h1 {
+  font-size: 1.3rem;
+}
+
+.home-body p {
+  margin: 0;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.home-body hr {
+  width: 15rem;
+}
